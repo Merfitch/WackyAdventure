@@ -41,8 +41,8 @@
   - type: WeatherScheduler # Regular ash storms
     stages:
     - duration: # 10-15 minutes of calm
-        min: 60
-        max: 90
+        min: 0
+        max: 0
     - weather: SnowfallLight
       duration:
         min: 90

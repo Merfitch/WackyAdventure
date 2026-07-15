@@ -27,7 +27,7 @@
     weightlessModifier: 1.5
   - type: Sprite
     drawdepth: Mobs
-    sprite: _AA_MyTextures/Mobs/Demons/tumper.rsi
+    sprite: _WackyAdventure/Mobs/Demons/tumper.rsi
     noRot: true
     scale: 0.75,0.75
     layers:
@@ -116,6 +116,7 @@
   parent: MobTumper
   id: MobTumperAgressive
   name: Саранча
+  suffix: Agressive
   components:
   - type: NpcFactionMember
     factions:
@@ -134,7 +135,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: _AA_MyTextures/Mobs/Demons/gavriil.rsi
+    sprite: _WackyAdventure/Mobs/Demons/gavriil.rsi
     drawdepth: Ghosts
     layers:
     - state: gavriil
@@ -148,7 +149,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: _AA_MyTextures/Mobs/Demons/boiled.rsi
+    sprite: _WackyAdventure/Mobs/Demons/boiled.rsi
     noRot: true
     scale: 0.75,0.75
     layers:
@@ -164,6 +165,7 @@
 - type: entity
   parent: MobBoiled
   id: MobBoiledAgressive
+  suffix: Agressive
   components:
   - type: NpcFactionMember
     factions:
@@ -218,10 +220,10 @@
     volume: 0
     range: 25
     sound:
-      path: /Audio/_AAMyAudio/mobs/demons/gavriil.ogg
+      path: /Audio/_WackyAdventure/mobs/demons/gavriil.ogg
   - type: EmitSoundOnSpawn
     sound:
-      path: /Audio/_AAMyAudio/mobs/demons/gavriilspawn.ogg
+      path: /Audio/_WackyAdventure/mobs/demons/gavriilspawn.ogg
   - type: PointLight
     enabled: true
     radius: 3

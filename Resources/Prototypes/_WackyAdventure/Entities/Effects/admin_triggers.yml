@@ -6,7 +6,7 @@
     lifetime: 8
   - type: EmitSoundOnSpawn
     sound:
-      path: /Audio/_AAMyAudio/scream/scream1.ogg
+      path: /Audio/_WackyAdventure/scream/scream1.ogg
 
 - type: entity
   id: AdminInstantEffectScream1
@@ -25,7 +25,7 @@
     lifetime: 9
   - type: EmitSoundOnSpawn
     sound:
-      path: /Audio/_AAMyAudio/scream/scream2.ogg
+      path: /Audio/_WackyAdventure/scream/scream2.ogg
 
 - type: entity
   id: AdminInstantEffectScream2
@@ -44,7 +44,7 @@
     lifetime: 9
   - type: EmitSoundOnSpawn
     sound:
-      path: /Audio/_AAMyAudio/scream/scream3.ogg
+      path: /Audio/_WackyAdventure/scream/scream3.ogg
 
 - type: entity
   id: AdminInstantEffectScream3

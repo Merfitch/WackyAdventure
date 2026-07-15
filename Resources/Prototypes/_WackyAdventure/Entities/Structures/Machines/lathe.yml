@@ -5,7 +5,7 @@
   description: Позволяет производить операции с радиоактивными веществами.
   components:
   - type: Sprite
-    sprite: Structures/Machines/nukelathe.rsi
+    sprite: _WackyAdventure/Structures/Machines/nukelathe.rsi
     state: base_1
     snapCardinals: true
   - type: Machine

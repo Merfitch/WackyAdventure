@@ -5,7 +5,7 @@
   components:
   - type: Vinyl
     song:
-      path: /Audio/_AAMyAudio/cds/Varenyi_CD.ogg
+      path: /Audio/_WackyAdventure/cds/Varenyi_CD.ogg
 
 - type: entity
   parent: BaseCdDisk
@@ -14,7 +14,7 @@
   components:
   - type: Vinyl
     song:
-      path: /Audio/_AAMyAudio/cds/NTWork.ogg
+      path: /Audio/_WackyAdventure/cds/NTWork.ogg
 
 - type: entity
   parent: BaseCdDisk
@@ -23,7 +23,7 @@
   components:
   - type: Vinyl
     song:
-      path: /Audio/_AAMyAudio/cds/CadetVSNO.ogg
+      path: /Audio/_WackyAdventure/cds/CadetVSNO.ogg
 
 - type: entity
   parent: BaseCdDisk
@@ -32,7 +32,7 @@
   components:
   - type: Vinyl
     song:
-      path: /Audio/_AAMyAudio/cds/RDM.ogg
+      path: /Audio/_WackyAdventure/cds/RDM.ogg
 
 - type: entity
   parent: BaseCdDisk
@@ -41,7 +41,7 @@
   components:
   - type: Vinyl
     song:
-      path: /Audio/_AAMyAudio/cds/DeathSquad.ogg
+      path: /Audio/_WackyAdventure/cds/DeathSquad.ogg
 
 - type: entity
   parent: BaseCdDisk
@@ -50,7 +50,7 @@
   components:
   - type: Vinyl
     song:
-      path: /Audio/_AAMyAudio/cds/Cargo.ogg
+      path: /Audio/_WackyAdventure/cds/Cargo.ogg
 
 - type: entity
   parent: BaseCdDisk
@@ -59,7 +59,7 @@
   components:
   - type: Vinyl
     song:
-      path: /Audio/_AAMyAudio/cds/Lukashenko.ogg
+      path: /Audio/_WackyAdventure/cds/Lukashenko.ogg
       
 - type: entity
   parent: BaseCdDisk
@@ -68,7 +68,7 @@
   components:
   - type: Vinyl
     song:
-      path: /Audio/_AAMyAudio/cds/Hannamontana.ogg
+      path: /Audio/_WackyAdventure/cds/Hannamontana.ogg
       
 - type: entity
   parent: BaseCdDisk
@@ -77,4 +77,4 @@
   components:
   - type: Vinyl
     song:
-      path: /Audio/_AAMyAudio/cds/Playboy.ogg
+      path: /Audio/_WackyAdventure/cds/Playboy.ogg
