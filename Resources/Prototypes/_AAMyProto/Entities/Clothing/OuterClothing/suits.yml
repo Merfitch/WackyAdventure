@@ -2,6 +2,7 @@
   parent: [ ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing, ClothingOuterBaseToggleable ]
   id: ClothingOuterSuitRadFullDefense
   name: противорадиационный костюм
+  suffix: "100%"
   description: "Костюм защищающий на 100% от радиации"
   components:
   - type: Sprite
@@ -36,6 +37,7 @@
   parent: [ ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing, ClothingOuterBaseToggleable ]
   id: ClothingOuterSuitRadHalfDefense
   name: противорадиационный костюм
+  suffix: "50%"
   description: "Костюм защищающий на 50% от радиации"
   components:
   - type: Sprite
@@ -70,6 +72,7 @@
   parent: [ ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing, ClothingOuterBaseToggleable ]
   id: ClothingOuterSuitRadThreeQuatersDefense
   name: противорадиационный костюм
+  suffix: "75%"
   description: "Костюм защищающий на 75% от радиации"
   components:
   - type: Sprite
@@ -104,6 +107,7 @@
   parent: [ ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing, ClothingOuterBaseToggleable ]
   id: ClothingOuterSuitRadArmorFullDefense
   name: усиленный противорадиационный костюм
+  suffix: "100%"
   description: "Костюм защищающий на 100% от радиации"
   components:
   - type: Sprite
@@ -142,6 +146,7 @@
   parent: [ ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing, ClothingOuterBaseToggleable ]
   id: ClothingHardSuitRadArmorFullDefense
   name: противорадиационный броне скафандр
+  suffix: "100%"
   description: "Костюм защищающий на 100% от радиации и от давления"
   components:
   - type: PressureProtection
