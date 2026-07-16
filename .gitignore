@@ -328,3 +328,5 @@ core
 
 update.sh
 update.build.sh
+
+server_config.toml
