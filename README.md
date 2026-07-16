@@ -1,6 +1,6 @@
 <p align="center">
   <img alt="Space Station 14" width="550" height="188" src="https://github.com/Merfitch/WackyAdventure/blob/master/Resources/Textures/Logo/logo-goob.png" />
-  <img alt="Wacky Adventure" width="188" height="188" src="https://raw.githubusercontent.com/Merfitch/WackyAdventure/master/Resources/Textures/Logo/logo-ru.png" />
+  <img alt="Wacky Adventure" width="188" height="188" src="https://raw.githubusercontent.com/Merfitch/WackyAdventure/master/Resources/Textures/Logo/WA-logo-clear.png" />
 </p>
 
 Wacky Adventure - это форк известного CorvaxGoob со своими уникальными механиками.
