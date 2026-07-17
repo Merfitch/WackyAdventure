@@ -83,6 +83,10 @@
   suffix: "100%"
   description: "Костюм защищающий на 100% от радиации и от давления"
   components:
+  - type: Sprite
+    sprite: _WackyAdventure/Clothing/OuterClothing/Suits/rad.rsi
+  - type: Clothing
+    sprite: _WackyAdventure/Clothing/OuterClothing/Suits/rad.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -109,9 +113,9 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: Sprite
-    sprite: Clothing/Head/Hoods/rad.rsi
+    sprite: _WackyAdventure/Clothing/Head/Hoods/radsuits.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/rad.rsi
+    sprite: _WackyAdventure/Clothing/Head/Hoods/radsuits.rsi
   - type: Armor
     coverage:
     - Head
