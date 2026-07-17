@@ -235,7 +235,8 @@
     intensity: 0.5
   - type: PhysicalComposition
     materialComposition:
-      Neptunium: 100
+       UraniumFuel: 100
+#      Neptunium: 100
   - type: Stack
     stackType: Neptunium
     baseLayer: base
@@ -268,7 +269,8 @@
     intensity: 0.3
   - type: PhysicalComposition
     materialComposition:
-      NeptuniumFuel: 100
+       UraniumFuel: 100
+#      NeptuniumFuel: 100
   - type: Stack
     stackType: NeptuniumFuel
     baseLayer: base
@@ -302,7 +304,8 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Plutonium-238: 100
+       UraniumFuel: 100
+#      Plutonium-238: 100
   - type: Stack
     stackType: Plutonium-238
     baseLayer: base
@@ -345,7 +348,8 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Plutonium-239: 100
+       UraniumFuel: 100
+#      Plutonium-239: 100
   - type: Stack
     stackType: Plutonium-239
     baseLayer: base
@@ -396,7 +400,8 @@
     intensity: 0.6
   - type: PhysicalComposition
     materialComposition:
-      Plutonium-240: 100
+       UraniumFuel: 100
+#      Plutonium-240: 100
   - type: Stack
     stackType: Plutonium-240
     baseLayer: base
@@ -438,7 +443,8 @@
     intensity: 0.8
   - type: PhysicalComposition
     materialComposition:
-      PlutoniumFuel: 100
+       UraniumFuel: 100
+#      PlutoniumFuel: 100
   - type: Stack
     stackType: PlutoniumFuel
     baseLayer: base
@@ -480,7 +486,8 @@
     intensity: 0.6
   - type: PhysicalComposition
     materialComposition:
-      Plutonium: 100
+       UraniumFuel: 100
+#      Plutonium: 100
   - type: Stack
     stackType: Plutonium
     baseLayer: base
