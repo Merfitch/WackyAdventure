@@ -66,6 +66,9 @@
   suffix: "100%"
   description: "Костюм защищающий на 100% от радиации"
   components:
+  - type: ToggleableClothing
+    clothingPrototypes:
+      head: ClothingArmorHatRad
   - type: Sprite
     sprite: _WackyAdventure/Clothing/OuterClothing/Suits/radarmor.rsi
   - type: Clothing
