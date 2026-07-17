@@ -330,3 +330,5 @@ update.sh
 update.build.sh
 
 server_config.toml
+
+server.js
