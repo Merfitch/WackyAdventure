@@ -84,6 +84,7 @@
       Heat: 4
       Blunt: 3
       Slash: 3 # Goob edit
+      Structural: 50
   lightColor: Green
   fireColor: Green
   texturePath: /Textures/Effects/fire_greyscale.rsi
