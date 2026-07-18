@@ -14,8 +14,8 @@
 - type: latheRecipePack
   id: NeptuniumSynthesis
   recipes:
-  - SheetNeptunium
-  - PlutoniumFuelRod
+  - NeptuniumSynthesizing
+  - NeptuniumFuelRod
 
 - type: latheRecipePack
   id: MOXFuel
@@ -25,9 +25,9 @@
 - type: latheRecipePack
   id: PlutoniumSynthesis
   recipes:
-  - SheetPlutonium
+  - PlutoniumSynthesizing
   - PlutoniumFuelRod
-  - SheetPlutonium-238-239-240
+  - PlutoniumCentrifugation
 
 - type: latheRecipePack
   id: RadArmor

@@ -11,6 +11,8 @@
   - NukeLatheCircuitBoard
   - UraniumCentrifugation
   - UraniumFuelRod
+  - NuclearControllerFlatpack
+  - NuclearShieldingFlatpack
   position: 1,-3
   technologyPrerequisites:
   - AdvancedPowerGeneration
@@ -19,8 +21,8 @@
   id: Neptunium
   name: Обработка нептуния
   icon:
-    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
-    state: neptuniumFuel
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
+    state: neptuniumFuelRod
   discipline: Industrial
   tier: 3
   cost: 10000
@@ -35,8 +37,8 @@
   id: Plutonium
   name: Обработка плутония
   icon:
-    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
-    state: plutoniumFuel
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
+    state: plutoniumFuelRod
   discipline: Industrial
   tier: 3
   cost: 10000
@@ -52,8 +54,8 @@
   id: MOXFuel
   name: МОКС топливо
   icon:
-    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
-    state: plutoniumFuel
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
+    state: mOXFuelRod
   discipline: Industrial
   tier: 3
   cost: 10000

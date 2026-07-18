@@ -1,9 +1,9 @@
 # SPDX-FileCopyrightText: 2026 Merfitch
 
 - type: entity
-  id: NuclearReactorComputer
-  name: Reactor control console
-  description: It's a controller for the nuclear reactor.
+  id: NuclearReactorConsole
+  name: консоль ядерного реактора
+  description: Это консоль для контроля ядерного реактора.
   placement:
     mode: SnapgridCenter
   components:
@@ -135,8 +135,8 @@
 
 - type: entity
   id: NuclearReactorShielding
-  name: reactor shielding
-  description: Keeps full radiation isolation for you!
+  name: экранирование ядерного реактора
+  description: Полная защита от радиации! Наверное...
   placement:
     mode: SnapgridCenter
   components:
