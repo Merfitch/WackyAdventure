@@ -97,9 +97,9 @@
   - Clothing
   completetime: 10
   materials:
-    Durathread: 3000
+    Durathread: 1000
     Silver: 500
-    Steel: 1500
+    Steel: 500
     Titanium: 100
 
 - type: latheRecipe
@@ -109,9 +109,9 @@
   - Clothing
   completetime: 10
   materials:
-    Durathread: 6000
-    Silver: 1000
-    Steel: 1500
+    Durathread: 1500
+    Silver: 500
+    Steel: 1000
     Titanium: 500
     Gold: 500
 
@@ -122,10 +122,11 @@
   - Clothing
   completetime: 10
   materials:
-    Durathread: 6000
+    Durathread: 1500
     Silver: 1000
-    Steel: 4000
-    Titanium: 1000
+    Steel: 1500
+    Plasteel: 1000
+    Titanium: 500
     Plastitanium: 100
     Gold: 500
 
@@ -136,10 +137,10 @@
   - Clothing
   completetime: 10
   materials:
-    Durathread: 6000
+    Durathread: 1500
     Silver: 1000
-    Steel: 5000
-    Titanium: 1000
+    Steel: 1500
+    Titanium: 500
     Plastitanium: 300
     Gold: 500
 
@@ -150,7 +151,6 @@
   - NuclearFusionUranium
   completetime: 1
   materials:
-    Durathread: 500
     Steel: 3000
     Titanium: 500
     Plastitanium: 500
@@ -167,4 +167,4 @@
     Steel: 3000
     Titanium: 500
     Silver: 100
-    Uranium: 300
+    Glass: 300

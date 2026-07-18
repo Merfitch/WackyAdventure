@@ -1,11 +1,15 @@
 - type: latheRecipePack
   id: BaseNuclear
   recipes:
-  - NukeLatheCircuitBoard
   - UraniumFuelRod
   - UraniumCentrifugation
   - NuclearShieldingFlatpack
   - NuclearControllerFlatpack
+
+- type: latheRecipePack
+  id: NukeLatheCircuitBoard
+  recipes:
+  - NukeLatheCircuitBoard
 
 - type: latheRecipePack
   id: NuclearFusionUranium

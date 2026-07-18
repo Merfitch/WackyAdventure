@@ -505,7 +505,7 @@
 
 - type: entity
   parent: [SheetOtherBase, EdibleBase]
-  id: SheetUranium-235-238
+  id: Uranium-235-238
   name: уран-235-238
   suffix: Full
   components:
@@ -525,7 +525,7 @@
 
 - type: entity
   parent: [SheetOtherBase, EdibleBase]
-  id: SheetPlutonium-238-239-2401
+  id: Plutonium-238-239-240
   name: плутонии 238, 239 и 240
   suffix: Full
   components:

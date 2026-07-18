@@ -58,6 +58,9 @@
     - MiscSignallersStatic
     - NailgunStatic
     - NailsStatic
+    - RadHardSuit
+    - RadSuit75Percent
+    - RadSuit100Percent
     dynamicPacks:
     - ConstructionBagOfHolding
     - AdvancedTools
@@ -206,6 +209,8 @@
     - ScienceExplosives # Goobstation - Roundstart Grenade Tech
     - GrenadeTriggersStatic # Goobstation - Roundstart Grenade Tech
     - MiscSignallersStatic
+    - RadSuit100Percent
+    - RadSuit75Percent
     dynamicPacks:
     - AdvancedTools
     - ScienceEquipment
