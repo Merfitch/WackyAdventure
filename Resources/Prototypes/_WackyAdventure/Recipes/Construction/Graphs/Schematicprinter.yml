@@ -33,7 +33,7 @@
             - material: Steel
               amount: 5
             - material: Plasma
-              amount: 4
+              amount: 2
 
     - node: microManipulatorStockPart
       entity: MicroManipulatorStockPart

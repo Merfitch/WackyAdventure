@@ -1,72 +1,83 @@
 - type: latheRecipe
   id: UraniumCentrifugation
-  result: SheetUranium-235-238
+  result: Uranium-235-238
   categories:
-  - NukeLatheStatic
-  completetime: 4
+  - Nuclear
+  completetime: 5
   materials:
     Uranium: 2000
 
 - type: latheRecipe
-  id: SheetUraniumFuel2
-  result: SheetUraniumFuel1
+  id: UraniumFuelRod
+  result: UraniumFuelRod
   categories:
-  - NuclearFusionUranium
-  completetime: 5
+  - Nuclear
+  completetime: 10
   materials:
-    Uranium-238: 60
-    Uranium-235: 10
+    Uranium-238: 6000
+    Uranium-235: 1000
 
 - type: latheRecipe
-  id: SheetNeptunium
+  id: NeptuniumSynthesizing
   result: SheetNeptunium1
   categories:
-  - NeptuniumSynthesis
-  completetime: 6
+  - Nuclear
+  completetime: 1
   materials:
-    Uranium: 100
-    Litium: 100
+    Uranium: 50
+    Litium: 50
 
 - type: latheRecipe
-  id: SheetNeptuniumFuel
-  result: SheetNeptuniumFuel1
+  id: NeptuniumFuelRod
+  result: NeptuniumFuelRod
   categories:
-  - NuclearFusionNeptunium
-  completetime: 5
+  - Nuclear
+  completetime: 10
   materials:
-    Neptunium: 33
-    Uranium-238: 67
+    Neptunium: 3300
+    Uranium-238: 6700
 
 - type: latheRecipe
-  id: SheetPlutonium
+  id: PlutoniumSynthesizing
   result: SheetPlutonium1
   categories:
-  - PlutoniumSynthesis
-  completetime: 6
+  - Nuclear
+  completetime: 1
   materials:
-    Neptunium: 100
-    Litium: 100
+    Neptunium: 50
+    Litium: 50
 
 - type: latheRecipe
-  id: SheetPlutonium-238-239-240
-  result: SheetPlutonium-238-239-2401
+  id: PlutoniumCentrifugation
+  result: Plutonium-238-239-240
   categories:
-  - PlutoniumSynthesis
-  completetime: 10
+  - Nuclear
+  completetime: 5
   materials:
     Fluorite: 300
     Plutonium: 700
 
 - type: latheRecipe
-  id: SheetPlutoniumFuel
-  result: SheetPlutoniumFuel1
+  id: PlutoniumFuelRod
+  result: PlutoniumFuelRod
   categories:
-  - NuclearFusionPlutonium
+  - Nuclear
   completetime: 10
   materials:
-    Plutonium-238: 10
-    Plutonium-239: 60
-    Plutonium-240: 30
+    Plutonium-238: 1000
+    Plutonium-239: 6000
+    Plutonium-240: 3000
+
+- type: latheRecipe
+  id: MOXFuelRod
+  result: MOXFuelRod
+  categories:
+  - Nuclear
+  completetime: 10
+  materials:
+    Plutonium-239: 3000
+    Uranium-238: 5000
+    Uranium-235: 1000
 
 - type: latheRecipe
   id: NukeLatheCircuitBoard
@@ -75,9 +86,85 @@
   - Circuitry
   completetime: 5
   materials:
+    Steel: 100
+    Gold: 100
+    Glass: 500
+
+- type: latheRecipe
+  id: RadSuit75Percent
+  result: ClothingOuterSuitRadThreeQuatersDefense
+  categories:
+  - Clothing
+  completetime: 10
+  materials:
+    Durathread: 1000
+    Silver: 500
     Steel: 500
-    Plasma: 300
-    Gold: 200
-    Silver: 200
-    Uranium: 200
-    Diamond: 100
+    Titanium: 100
+
+- type: latheRecipe
+  id: RadSuit100Percent
+  result: ClothingOuterSuitRadFullDefense
+  categories:
+  - Clothing
+  completetime: 10
+  materials:
+    Durathread: 1500
+    Silver: 500
+    Steel: 1000
+    Titanium: 500
+    Gold: 500
+
+- type: latheRecipe
+  id: RadArmor
+  result: ClothingOuterSuitRadArmorFullDefense
+  categories:
+  - Clothing
+  completetime: 10
+  materials:
+    Durathread: 1500
+    Silver: 1000
+    Steel: 1500
+    Plasteel: 1000
+    Titanium: 500
+    Plastitanium: 100
+    Gold: 500
+
+- type: latheRecipe
+  id: RadHardSuit
+  result: ClothingHardSuitRadArmorFullDefense
+  categories:
+  - Clothing
+  completetime: 10
+  materials:
+    Durathread: 1500
+    Silver: 1000
+    Steel: 1500
+    Titanium: 500
+    Plastitanium: 300
+    Gold: 500
+
+- type: latheRecipe
+  id: NuclearShieldingFlatpack
+  result: NuclearShieldingFlatpack
+  categories:
+  - Nuclear
+  completetime: 1
+  materials:
+    Steel: 3000
+    Titanium: 500
+    Plastitanium: 500
+    Glass: 200
+
+- type: latheRecipe
+  id: NuclearControllerFlatpack
+  result: NuclearControllerFlatpack
+  categories:
+  - Nuclear
+  completetime: 10
+  materials:
+    Gold: 500
+    Steel: 3000
+    Titanium: 500
+    Silver: 100
+    Glass: 300

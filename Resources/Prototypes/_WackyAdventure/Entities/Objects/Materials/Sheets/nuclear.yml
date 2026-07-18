@@ -176,7 +176,7 @@
 
 - type: entity
   parent: SheetLitium
-  id: Sheetlitium1
+  id: SheetLitium1
   name: литий
   suffix: Single
   components:
@@ -218,7 +218,7 @@
 
 - type: entity
   parent: SheetFluorite
-  id: Sheetfluorite1
+  id: SheetFluorite1
   name: флюорит
   suffix: Single
   components:
@@ -505,12 +505,12 @@
 
 - type: entity
   parent: [SheetOtherBase, EdibleBase]
-  id: SheetUranium-235-238
+  id: Uranium-235-238
   name: уран-235-238
   suffix: Full
   components:
   - type: TimedDespawn
-    lifetime: 0
+    lifetime: 0.0
   - type: Sprite
     sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: uranium-235_3
@@ -525,12 +525,12 @@
 
 - type: entity
   parent: [SheetOtherBase, EdibleBase]
-  id: SheetPlutonium-238-239-2401
+  id: Plutonium-238-239-240
   name: плутонии 238, 239 и 240
   suffix: Full
   components:
   - type: TimedDespawn
-    lifetime: 0
+    lifetime: 0.0
   - type: Sprite
     sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: plutonium_3

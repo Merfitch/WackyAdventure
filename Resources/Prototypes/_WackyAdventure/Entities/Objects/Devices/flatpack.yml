@@ -1,0 +1,35 @@
+- type: entity
+  parent: BaseFlatpack
+  id: NuclearShieldingFlatpack
+  name: упакованное экранирование реактора
+  description: Упакованное экранирование реактора, можно открыть при помощи мультитула.
+  components:
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: Flatpack
+    entity: NuclearReactorShielding
+  - type: StaticPrice
+    price: 500
+  - type: GuideHelp
+    guides:
+    - AME
+    - Power
+
+- type: entity
+  parent: BaseFlatpack
+  id: NuclearControllerFlatpack
+  name: упакованный компьютер реактора
+  description: Упакованный компьютер реактора, можно открыть при помощи мультитула.
+  components:
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: Flatpack
+    entity: NuclearReactorComputer
+  - type: StaticPrice
+    price: 500
+  - type: GuideHelp
+    guides:
+    - AME
+    - Power

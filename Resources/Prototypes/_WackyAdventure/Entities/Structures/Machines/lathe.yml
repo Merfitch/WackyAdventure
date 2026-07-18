@@ -26,11 +26,8 @@
   - type: Lathe
     idleState: icon
     unlitIdleState: unlit
-    staticPacks: 
-    - NukeLatheStatic
     dynamicPacks:
-    - NuclearFusionUranium
+    - BaseNuclear
     - NeptuniumSynthesis
-    - NuclearFusionNeptunium
     - PlutoniumSynthesis
-    - NuclearFusionPlutonium
+    - MOXFuel
