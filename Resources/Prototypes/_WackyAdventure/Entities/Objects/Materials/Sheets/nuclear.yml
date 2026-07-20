@@ -66,9 +66,9 @@
   components:
   - type: Sprite
     sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
-    state: uranium-235_1
+    state: uranium-235
     layers:
-    - state: uranium-235_1
+    - state: uranium-235
       map: ["base"]
   - type: Stack
     count: 1
@@ -105,9 +105,9 @@
   components:
   - type: Sprite
     sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
-    state: uranium-238_1
+    state: uranium-238
     layers:
-    - state: uranium-238_1
+    - state: uranium-238
       map: ["base"]
   - type: Stack
     count: 1
@@ -160,9 +160,9 @@
   suffix: Single
   components:
   - type: Sprite
-    state: litium_1
+    state: litium
     layers:
-    - state: litium_1
+    - state: litium
       map: ["base"]
   - type: Stack
     count: 1
@@ -207,9 +207,9 @@
   suffix: Single
   components:
   - type: Sprite
-    state: fluorite_1
+    state: fluorite
     layers:
-    - state: fluorite_1
+    - state: fluorite
       map: ["base"]
   - type: Stack
     count: 1
@@ -245,9 +245,9 @@
   suffix: Single
   components:
   - type: Sprite
-    state: neptunium_1
+    state: neptunium
     layers:
-    - state: neptunium_1
+    - state: neptunium
       map: ["base"]
   - type: Stack
     count: 1
@@ -284,9 +284,9 @@
   suffix: Single
   components:
   - type: Sprite
-    state: plutonium-238_1
+    state: plutonium-238
     layers:
-    - state: plutonium-238_1
+    - state: plutonium-238
       map: ["base"]
   - type: Stack
     count: 1
@@ -298,9 +298,9 @@
   suffix: 3
   components:
   - type: Sprite
-    state: plutonium-238_1
+    state: plutonium-238
     layers:
-    - state: plutonium-238_1
+    - state: plutonium-238
       map: ["base"]
   - type: Stack
     count: 3
@@ -346,9 +346,9 @@
   suffix: Single
   components:
   - type: Sprite
-    state: plutonium-239_1
+    state: plutonium-239
     layers:
-    - state: plutonium-239_1
+    - state: plutonium-239
       map: ["base"]
   - type: Stack
     count: 1
@@ -360,9 +360,9 @@
   suffix: 3
   components:
   - type: Sprite
-    state: plutonium-239_1
+    state: plutonium-239
     layers:
-    - state: plutonium-239_1
+    - state: plutonium-239
       map: ["base"]
   - type: Stack
     count: 3
@@ -398,9 +398,9 @@
   suffix: Single
   components:
   - type: Sprite
-    state: plutonium-240_1
+    state: plutonium-240
     layers:
-    - state: plutonium-240_1
+    - state: plutonium-240
       map: ["base"]
   - type: Stack
     count: 1
@@ -412,9 +412,9 @@
   suffix: 3
   components:
   - type: Sprite
-    state: plutonium-240_1
+    state: plutonium-240
     layers:
-    - state: plutonium-240_1
+    - state: plutonium-240
       map: ["base"]
   - type: Stack
     count: 3
@@ -450,9 +450,9 @@
   suffix: Single
   components:
   - type: Sprite
-    state: plutonium_1
+    state: plutonium
     layers:
-    - state: plutonium_1
+    - state: plutonium
       map: ["base"]
   - type: Stack
     count: 1
