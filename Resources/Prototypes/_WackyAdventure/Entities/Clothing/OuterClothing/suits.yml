@@ -81,7 +81,7 @@
         Caustic: 0.6
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
-      head: ClothingHeadHatHoodRad
+      head: ClothingHardSuitHatRad
 
 - type: entity
   parent: ClothingOuterSuitRadFullDefense
