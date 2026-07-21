@@ -9,7 +9,7 @@
     Steel: 600
 
 - type: latheRecipe
-  id: MaterialCloth1
+  id: MaterialCloth2
   result: MaterialCloth1
   categories:
   - Tools
