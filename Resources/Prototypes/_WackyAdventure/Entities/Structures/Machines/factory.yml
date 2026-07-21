@@ -1,0 +1,69 @@
+- type: entity
+  name: нефтевышка
+  id: OilRig
+  description: При помощи крутых технологи нефть сразу перерабатывается в топливо
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Sprite
+    sprite: Structures/Furniture/sink.rsi
+    layers:
+      - state: sink_stem
+      - map: [ "enum.SolutionContainerLayers.Fill" ]
+        state: sink-fill-1
+        visible: false
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    fillBaseName: sink-fill-
+    solutionName: drainBuffer
+  - type: SolutionContainerManager
+    solutions:
+      drainBuffer:
+        maxVol: 100
+      tank:
+        maxVol: 9999999 # Goobstation - No regenerating water, so lets just give it a fuck ton.
+        reagents:
+        - ReagentId: WeldingFuel
+          Quantity: 9999999
+  #- type: SolutionRegeneration Goobstation - laggy
+  #  solution: tank
+  #  generated:
+  #    reagents:
+  #    - ReagentId: Water
+  #      Quantity: 1
+  - type: DrainableSolution
+    solution: tank
+  - type: ReagentTank
+  - type: Drain
+    autoDrain: false
+  - type: DumpableSolution
+    solution: drainBuffer
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 80
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+      - trigger:
+          !type:DamageTrigger
+          damage: 40
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+          - !type:PlaySoundBehavior
+            sound:
+              collection: MetalBreak
+  - type: AmbientSound
+    enabled: false
+    volume: -8
+    range: 8
+    sound:
+      path: /Audio/_WackyAdventure/Ambience/Objects/factory_1.ogg
