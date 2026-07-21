@@ -2,6 +2,16 @@
 
 - type: entity
   parent: BaseBlueprint
+  id: MaterialCloth
+  name: Чертеж ткани
+  description: Чертеж который позволяет делать ткань.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - MaterialCloth1
+
+- type: entity
+  parent: BaseBlueprint
   id: BlueprintMagazineBoxPistol
   name: Чертеж коробки патронов .35
   description: Чертеж который позволяет делать коробку патронов .35.
