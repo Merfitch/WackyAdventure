@@ -9,6 +9,15 @@
     Steel: 600
 
 - type: latheRecipe
+  id: MaterialCloth1
+  result: MaterialCloth1
+  categories:
+  - Tools
+  completetime: 0
+  materials:
+    Wood: 500
+
+- type: latheRecipe
   id: MagazinePistol1
   result: MagazinePistol
   categories:
