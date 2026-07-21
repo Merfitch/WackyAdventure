@@ -1,8 +1,3 @@
-# Крафт платы автолата, эта-то хуйня устанавливается легко, но нужно похуячится в коде, 1 тайп добавить
-#    - type: Construction
-#      graph: AutolatheMachineCircuitboard
-#      node: autolatheMachineCircuitboard
-
 - type: construction
   id: AutolatheMachineCircuitboard
   graph: AutolatheMachineCircuitboard
